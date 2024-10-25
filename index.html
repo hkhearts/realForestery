@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RealForestery</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div id="logo">Krish Hortus</div>
+            <div id="toggleOverlay">Features</div> 
+            <!-- toggle ku speeling theriyala pochu -->
+        </nav>
+        <div class="title">Real Forestery</div>
+    </div>
+    <div class="features">
+        <div class="wrapper">
+            <svg 
+                class="transition" 
+                ViewBox="0 0 100 100" 
+                preserveAspectRatio="none"
+            >
+                <path class="path" 
+                    stroke="#506B50"
+                    fill="#506B50"
+                    stroke-width="2px"
+                    dur="10s"
+                    vector-effect="non-scaling-stroke"
+                    d="M 0 100 V 100 Q 50 100 100 100 V 100 z"
+                />
+                <animateMotion dur="10s"
+                repeatCount="indefinite">
+                    <mpath xlink:href="#path" />
+                </animateMotion>
+
+                <div id="wrap">
+                    <div class="block">
+                        <div class="product">
+                            <img src="./images/treeFingerprint.jpg" alt="feature 1">
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="product">
+                            <img src="" alt="feature 1">
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="product">
+                            <img src="" alt="feature 1">
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="product">
+                            <img src="" alt="feature 1">
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="product">
+                            <img src="" alt="feature 1">
+                        </div>
+                    </div>
+                </div>
+            </svg>
+        </div>
+        <button id="closeBtn">Close</button>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
